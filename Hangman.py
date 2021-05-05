@@ -6,7 +6,7 @@ word_list = ('python', 'java', 'kotlin', 'javascript')
 answer = random.choice(word_list)
 hidden_ans = len(answer) * '-'
 temp = list(hidden_ans)
-reply_check = []  # store every word
+reply_check = []  
 tries = 8
 
 while tries >= 1:
@@ -14,7 +14,7 @@ while tries >= 1:
     word = input("Input a letter: ")
     i = 0
 
-    if len(word) != 1:  # Remember that zero is also not one!
+    if len(word) != 1:  
         print("You should input a single letter")
 
     elif not word.isalpha():
@@ -39,7 +39,7 @@ while tries >= 1:
         else:
             print("It is not an ASCII lowercase letter")
 
-    # this block need to debug
+            
     if hidden_ans != answer and not tries < 1:
         print()
 
