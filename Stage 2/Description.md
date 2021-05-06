@@ -1,3 +1,5 @@
+# Work on project. Stage 2/8: Let’s play a game 
+
 # Description
 At this stage, you will create a real game, though it will still be quite simple. There will be two possible outcomes. Let's first print a welcome message and then ask the player to guess the word we set for the game. If our player manages to guess the exact word, the game reports "win"; otherwise it will "hang" the player.
 
