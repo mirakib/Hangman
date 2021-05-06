@@ -1,3 +1,5 @@
+# Work on project. Stage 3/8: Make your choice 
+
 # Description
 
 If there is a predefined word, the game isn't replayable. You already know the word, so there’s no longer any challenge. At this stage, let's make the game more challenging by choosing a word from a special list with a variety of options. This way, our game will have more replay value.
